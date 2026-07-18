@@ -108,7 +108,7 @@ if word_input:
         ---
         📂 **Open Source / Вихідний код:**  
         The complete modular architecture, bilingual codebase, and deterministic case modules are completely open-source. Feel free to explore the structural engine design directly on GitHub:  
-        [GitHub Repository: ukrainian-case-constructor](https://github.com/garjo82/ukrainian-case-constructor) *(Replace this link with your actual repository URL)*
+        [GitHub Repository: ukrainian-case-constructor](https://github.com/garjo82/ukrainian-case-constructor)
         """)
 
     else:

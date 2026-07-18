@@ -16,7 +16,7 @@ A deterministic, rule-based computational engine designed to automatically calcu
 * **Diagnostics Panel:** Expand the "View Rule Evaluation Context" dropdown at the bottom to see the internal state machine variables (Inferred Gender, Stem Type, and Animacy status).
 
 ### 2. Logic and Design Choices
-* **Dictionaryless Implementation:** Unlike traditional natural language processing tools that rely on massive database lookups, static dictionaries, or machine learning guesswork, this engine executes pure algorithmic morphological transformations.
+* **Dictionaryless Implementation:** Unlike traditional natural language processing tools that rely on massive database lookups, static dictionaries, or machine learning guesswork, this engine executes pure algorithmic morphological transformations. This algorithmic approach can serve as a framework for highly analytical learners to construct/deconstruct cases in real time, rather than having to rely on memorizing Ukrainian case tables.
 * **First-Principles Linguistics:** The system isolates the noun's structural stem, automatically classifies its gender and stem property (hard vs. soft), and dynamically routes the token through deterministic logic loops.
 * **Sound Mutation Pipelines:** Linguistic phenomena such as velar consonant mutations ($k \rightarrow ts$, $h \rightarrow s$, $g \rightarrow z$) and soft-vowel transitions are calculated entirely via functional code, mimicking the true phonetic laws of the language.
 
@@ -29,6 +29,7 @@ A deterministic, rule-based computational engine designed to automatically calcu
 * **Plural Paradigm Engine:** Expansion of the architectural routing loops to fully calculate plural case forms across all genders.
 * **Fleeting Vowel Detection:** Algorithmic identification of shifting root vowels (like the $o/e \rightarrow i$ transitions or complete vowel dropouts) during stem isolation.
 * **Expanded Parts of Speech:** Gradual integration of adjective agreement modules to allow users to decline entire noun-adjective phrases simultaneously.
+* **Case Construction Visualization:** A graphical visualization to replace the rule evaluation context, which will provide learners with a visual mapping for case construction and deconstruction.
 
 ---
 
@@ -42,7 +43,7 @@ A deterministic, rule-based computational engine designed to automatically calcu
 * **Діагностична панель:** Розгорніть меню "Переглянути контекст аналізу правил" внизу, щоб побачити внутрішні змінні стану двигуна (визначений рід, тип основи та категорію істоти).
 
 ### 2. Логіка та архітектурні рішення
-* **Робота без словника:** На відміну від традиційних інструментів обробки природної мови, які покладаються на величезні бази даних, статичні словники або машинні прогнози, цей двигун виконує суто алгоритмічні морфологічні трансформації.
+* **Робота без словника:** На відміну від традиційних інструментів обробки природної мови, які покладаються на величезні бази даних, статичні словники або машинні прогнози, цей двигун виконує суто алгоритмічні морфологічні трансформації. Такий алгоритмічний підхід може слугувати основою для учнів з аналітичним складом мислення, дозволяючи їм конструювати та деконструювати відмінки в режимі реального часу замість того, щоб покладатися на зазубрювання таблиць відмінювання української мови.
 * **Лінгвістика перших принципів:** Система ізолює структурну основу іменника, автоматично класифікує його рід та тип основи (тверда чи м'яка), а потім динамічно спрямовує токен через детерміновані логічні цикли.
 * **Чергування звуків:** Лінгвістичні явища, такі як чергування приголосних ($k \rightarrow ts$, $h \rightarrow s$, $g \rightarrow z$) та переходи м'яких голосних, розраховуються повністю за допомогою функціонального коду, відтворюючи реальні фонетичні закони мови.
 
@@ -51,7 +52,8 @@ A deterministic, rule-based computational engine designed to automatically calcu
 * **Винятки та нерегулярні іменники:** Нерегулярні іменники з високою частотою вживання, унікальні запозичені слова або іменники з випадними голосними (наприклад, *день* $\rightarrow$ *дня*) можуть відображатися некоректно, оскільки вони виходять за межі стандартних правил.
 * **Власні назви та прізвища:** Хоча загальні назви працюють чудово, специфічні власні назви або складні флексії прізвищ наразі не виділені в окремі правила.
 
-### 4. Planned Feature Updates / Плановані оновлення функцій
+### 4. Плановані оновлення функцій
 * **Модуль множини:** Розширення архітектурних циклів маршрутизації для повного розрахунку відмінкових форм множини для всіх родів.
 * **Визначення випадних голосних:** Алгоритмічне виявлення змінних кореневих голосних (таких як переходи $o/e \rightarrow i$ або повне випадіння голосного) під час ізоляції основи.
 * **Узгодження з іншими частинами мови:** Поступова інтеграція модулів узгодження прикметників, що дозволить користувачам відмінювати цілі словосполучення (іменник + прикметник) одночасно.
+* **Візуалізація конструювання відмінків:** Графічна візуалізація, яка замінить поточний контекст аналізу правил. Вона надасть учням наочну карту для візуального моделювання процесів конструювання та деконструювання відмінків.

@@ -2,7 +2,7 @@
 
 A deterministic, rule-based computational engine designed to automatically calculate singular noun inflections in Ukrainian from first principles.
 
-🔗 **Live Web Application:** [ukrainian-case-constructor.streamlit.app](https://ukrainian-case-constructor.streamlit.app/)
+🔗 **Live Web Application:** [ukrainian-case-constructor.streamlit.app](https://ua-case-constructor.streamlit.app/)
 
 ---
 

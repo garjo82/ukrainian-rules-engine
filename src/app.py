@@ -96,7 +96,7 @@ if word_input:
                 "Категорія істоти": "Так (True)" if props["is_animate"] else "Ні (False)"
             })
 
-        # 5. Explanatory Context Footer (Placed neatly under drop downs and metrics)
+        # 5. Explanatory Context Footer with Repository Reference
         st.write("---")
         st.markdown("""
         **How this works / Як це працює:**  
@@ -104,6 +104,11 @@ if word_input:
         It automatically detects the gender and stem type, then calculates changes—like soft vowel transitions or velar sound shifts ($k \\rightarrow ts$)—using pure logic loops.
 
         *Замість пошуку слів у базі даних, цей додаток застосовує правила безпосередньо до основи слова. Він автоматично визначає рід і тип основи, а потім розраховує зміни за допомогою чистих логічних циклів.*
+
+        ---
+        📂 **Open Source / Вихідний код:**  
+        The complete modular architecture, bilingual codebase, and deterministic case modules are completely open-source. Feel free to explore the structural engine design directly on GitHub:  
+        [GitHub Repository: ukrainian-case-constructor](https://github.com) *(Replace this link with your actual repository URL)*
         """)
 
     else:

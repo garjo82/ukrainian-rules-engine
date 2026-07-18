@@ -1,4 +1,4 @@
-﻿# 🇺🇦 Ukrainian Case Constructor / Конструктор відмінків української мови
+﻿# Ukrainian Case Constructor / Конструктор відмінків української мови
 
 A deterministic, rule-based computational engine designed to automatically calculate singular noun inflections in Ukrainian from first principles.
 
@@ -6,7 +6,7 @@ A deterministic, rule-based computational engine designed to automatically calcu
 
 ---
 
-## 🇬🇧 English Documentation
+## English Documentation
 
 ### 1. Instructions for Use
 * **Input Entry:** Enter a singular base noun in the text input field. The system supports native Cyrillic characters (e.g., `книга`) as well as phonetic Latin script transliteration (e.g., `kniha`).
@@ -33,7 +33,7 @@ A deterministic, rule-based computational engine designed to automatically calcu
 
 ---
 
-## 🇺🇦 Українська документація
+## Українська документація
 
 ### 1. Інструкція з використання
 * **Введення слова:** Введіть іменник уднині у текстове поле. Система підтримує як рідну кирилицю (наприклад, `книга`), так і транслітерацію фонетичною латиницею (наприклад, `kniha`).
